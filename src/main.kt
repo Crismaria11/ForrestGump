@@ -1,6 +1,11 @@
 fun main(args: Array<String>) {
     val boxOfChocolate = RanBoxOfChocolates<Chocolate>(arrayListOf<Chocolate> {
-    Chocolate("Hersheu")
+    Chocolate("Hershey"),
+    Chocolate("Musketeers"),
+    Chocolate("M&M's")
+    Chocolate(Snickers")
     });
-    val Forrest = Gump<Chocolate>(boxOfChocolate);
+    val ForrestGump = Gump<Chocolate>(boxOfChocolate);
+    println(ForrestGump.sayTheLineForrest())
+    println(ForrestGump.sayTheLineForrest())
 }

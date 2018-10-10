@@ -4,7 +4,7 @@ class Gump<T> (val life: RanBoxOfChocolates<T>) {
         isRunning = true
     }
 
-    fun saysTheLineForrest(): String {
+    fun sayTheLineForrest(): String {
         val picked = life.pickOne()
 
         if (picked == null) {
