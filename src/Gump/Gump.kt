@@ -1,5 +1,0 @@
-package Gump
-
-class Gump {
-
-}

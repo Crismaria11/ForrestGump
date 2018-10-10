@@ -1,4 +1,0 @@
-package Gump
-
-class RanBoxOfChocolates {
-}
